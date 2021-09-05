@@ -34,19 +34,22 @@ The purpose of this analysis was to familiarize us with using Jupyter Notebook a
 ![Thomas High School Summary After](https://github.com/li-emily/School_District_Analysis/blob/main/Resources/Images/thomas_after.png)
 ***
 ### Thomas High School performance
-  - After the replacement of the ninth graders' scores, although Thomas High School's performance has slight changes, it still remained the #2 ranked school overall. Thomas High School stayed behind Caberera High School and ahead of Griffin High School. Top High School summary dataframes before and after replacement of Thomas High School ninth graders are below. (Before on top, after on bottom). 
+  - After the replacement of the ninth graders' scores, although Thomas High School's performance has slight changes, it still remained the #2 ranked school overall. Thomas High School stayed behind Caberera High School and ahead of Griffin High School. 
+  - Top High School summary dataframes before and after replacement of Thomas High School ninth graders are below. (Before on top, after on bottom). 
 
 ![Top School Summary Before](https://github.com/li-emily/School_District_Analysis/blob/main/Resources/Images/top_performing_schools_before.png)
 ![Top School Summary After](https://github.com/li-emily/School_District_Analysis/blob/main/Resources/Images/top_performing_schools_after.png)
 
 ### Effect of replacing ninth grade scores
 #### Math and reading scores by grade: 
-  - Nothing in particular changed besides the 9th grade column under Thomas High School for both math and reading scores having NaN instead of a value. Example of math scores after replacement below.
+  - Nothing in particular changed besides the 9th grade column under Thomas High School for both math and reading scores having NaN instead of a value. 
+  - Example of math scores after replacement below.
 
 ![Math Scores After](https://github.com/li-emily/School_District_Analysis/blob/main/Resources/Images/math_scores_after.png)
 ***
 #### Scores by school spending
-  - Despite technically not counting the ninth-grade students' results, Thomas High School remains in bin $630-644. If the new student count excluding the ninth graders had actually been used, then Thomas High School would have been in an undefinable bin outside of the split. However, the ninth graders were still students during this time and more was not spent on 10th-12th graders as a result, the bin does not change. Due to this and the fact that we were rounding the final result, not that much actually changed. There were slight increases and decreases of scores in spending range $585-$629 and $630-644. 
+  - Despite technically not counting the ninth-grade students' results, Thomas High School remains in bin $630-644. If the new student count excluding the ninth graders had actually been used, then Thomas High School would have been in an undefinable bin outside of the split. However, the ninth graders were still students during this time and more was not spent on 10th-12th graders as a result, the bin does not change. 
+  - Due to this and the fact that we were rounding the final result, not that much actually changed. There were slight increases and decreases of scores in spending range $585-$629 and $630-644. 
 ![Spending Passing Before](https://github.com/li-emily/School_District_Analysis/blob/main/Resources/Images/spending_passing_before.png)
 ![Spending Passing After](https://github.com/li-emily/School_District_Analysis/blob/main/Resources/Images/spending_passing_after.png)
 ***
